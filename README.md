@@ -1,1 +1,2 @@
 # webmethods.io-Bigcommerce-Community-Connector
+This is a Webmethods.io community connector for [Bigcommerce](https://www.bigcommerce.com/dm/start-online-store-offer/?irgwc=1&utm_term=yqP1P028kxyOW95wUx0Mo3QwUknVvazefwKTxU0&utm_content=504907&utm_campaign=56411&utm_medium=affiliates&utm_source=ImpactRadius), a ecommerce platform which allows you to create an online store. The connector uses the [Bigcommerce REST API](https://developer.bigcommerce.com/api-docs) to make HTTP requests to access or modify a resource. The actions supported by this community connector are:
