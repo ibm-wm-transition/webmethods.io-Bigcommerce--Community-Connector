@@ -1,1 +1,1 @@
-# webmethods.io-Bigcommerce--Community-Connector
+# webmethods.io-Bigcommerce-Community-Connector
