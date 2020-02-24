@@ -17,6 +17,12 @@ This is a Webmethods.io community connector for [Bigcommerce](https://www.bigcom
 #### 15. [Get Variant Options of a product](https://developer.bigcommerce.com/api-reference/catalog/catalog-api)
 #### 16.[Get details of all the customers](https://developer.bigcommerce.com/api-reference/customer-subscribers/customers-api)
 #### 17. [View All Coupon](https://developer.bigcommerce.com/api-reference/marketing/marketing-api)
+Along with five look up
+### 1. get_catagories.
+### 2. get_customer.
+### 3. get_order.
+### 4. get_product.
+### 5. get_statuscode.
 Learn about other supported actions [here](https://developer.bigcommerce.com/api-docs/getting-started/authentication/rest-api-authentication).
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
