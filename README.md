@@ -44,7 +44,7 @@ A successful save will display a pop-up containing the API credentials that your
 
 The base api path will look something like this: https://api.bigcommerce.com/stores/123456/. In the base path, the store hash is the 123456. This will be used to make API requests.
 ### Installing
-1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-BambooHR-Community-Connector.git`.
+1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-Bigcommerce-Community-Connector.git`.
 2. Run `npm install -g @webmethodsio/wmiocli`.
 3. Login to your webmethods.io tenant using `wmio login`.
 4. Execute `wmio init` to get started.
@@ -58,7 +58,7 @@ To test, you can execute `wmio test`.
 ## Deployment
 Execute `wmio deploy` to deploy this connector to your webmethods.io tenant. And `wmio unpublish` to unpublish the published connector app along with triggers and actions associated with the app.
 
-![BambooHR Connector](https://user-images.githubusercontent.com/16189220/74911246-3b403780-53e2-11ea-8789-be34e42a1d4f.png)
+![Bigcommerce Connector](https://user-images.githubusercontent.com/16189220/74911246-3b403780-53e2-11ea-8789-be34e42a1d4f.png)
 
 ## Built With
 Node v8.14.0 and [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI.
