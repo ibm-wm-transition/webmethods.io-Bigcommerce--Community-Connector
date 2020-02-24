@@ -1,0 +1,99 @@
+{
+  "name": "Bigcommerce",
+  "description": "Bigcommerce",
+  "triggers": [],
+  "actions": [
+    "/v1/get_all_products",
+    "/v1/create_a_product",
+    "/v1/give_a_product_review",
+    "/v1/get_product_review",
+    "/v1/get_product_images",
+    "/v1/get_variant_options",
+    "/v1/get_all_order",
+    "/v1/get_all_customer",
+    "/v1/get_single_customer_details",
+    "/v1/add_order",
+    "/v1/get_shipping_address",
+    "/v1/add_coupon",
+    "/v1/view_all_coupon",
+    "/v1/get_list_of_transaction_of_a_order",
+    "/v1/get_details_of_the_store",
+    "/v1/get_theme",
+    "/v1/get_channels"
+  ],
+  "version": 1,
+  "auth_type": "custom",
+  "docs_link": "http://docs.example.com",
+  "appId": "4f5326f8-a99a-4bc0-bd06-65c2cc0c7cda",
+  "guid": "eaaa6247-d8dd-458c-92e2-491a101feaac",
+  "connectionUid": "bigcommerce_1582519489542",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "get_order",
+      "action_id": "/v1/get_list_of_transaction_of_a_order",
+      "field_id": "ids",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_product",
+      "action_id": "/v1/add_coupon",
+      "field_id": "ids",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_catagories",
+      "action_id": "/v1/create_a_product",
+      "field_id": "categories",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_product",
+      "action_id": "/v1/give_a_product_review",
+      "field_id": "pid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_product",
+      "action_id": "/v1/get_product_review",
+      "field_id": "pid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_product",
+      "action_id": "/v1/get_variant_options",
+      "field_id": "pid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_product",
+      "action_id": "/v1/get_product_images",
+      "field_id": "pid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_customer",
+      "action_id": "/v1/get_single_customer_details",
+      "field_id": "cid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_product",
+      "action_id": "/v1/add_order",
+      "field_id": "name",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_customer",
+      "action_id": "/v1/add_order",
+      "field_id": "cid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_statuscode",
+      "action_id": "/v1/add_order",
+      "field_id": "si",
+      "dependencies": []
+    }
+  ]
+}

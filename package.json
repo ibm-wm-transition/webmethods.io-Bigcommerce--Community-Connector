@@ -1,0 +1,9 @@
+{
+  "name": "bigcommerce",
+  "version": "1.0.0",
+  "description": "Bigcommerce",
+  "dependencies": {
+    "request": "2.55.0",
+    "@webmethodsio/cli-sdk": "*"
+  }
+}
